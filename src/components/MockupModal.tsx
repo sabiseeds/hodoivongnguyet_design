@@ -10,8 +10,8 @@ interface MockupModalProps {
 export const MockupModal: React.FC<MockupModalProps> = ({ isOpen, onClose, lang }) => {
   if (!isOpen) return null;
 
-  const mockupImg = '/public/assets/aistudio/Ho_Doi_Vong_Nguyet__-_Page_02_0227bc3b.jpg';
-  const mockupPdf = '/public/assets/aistudio/Ho_Doi_Vong_Nguyet__-_Page_02_10ce363a.pdf';
+  const mockupImg = '/assets/aistudio/Ho_Doi_Vong_Nguyet__-_Page_02_0227bc3b.jpg';
+  const mockupPdf = '/assets/aistudio/Ho_Doi_Vong_Nguyet__-_Page_02_10ce363a.pdf';
 
   return (
     <div

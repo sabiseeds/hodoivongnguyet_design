@@ -165,11 +165,11 @@ export const ArtistProfiles: React.FC<ArtistProfilesProps> = ({ lang, onSelectAr
       {/* Artist Detail Modal */}
       {selectedModalArtist && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-md animate-fadeIn"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-md animate-fadeIn overflow-x-hidden"
           onClick={() => setSelectedModalArtist(null)}
         >
           <div
-            className="bg-[#0e1117] border border-amber-500/40 max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
+            className="bg-[#0e1117] border border-amber-500/40 max-w-3xl w-full min-w-0 max-h-[90vh] overflow-y-auto overflow-x-hidden shadow-2xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button */}
@@ -181,9 +181,9 @@ export const ArtistProfiles: React.FC<ArtistProfilesProps> = ({ lang, onSelectAr
               <X className="w-5 h-5" />
             </button>
 
-            <div className="grid grid-cols-1 md:grid-cols-5">
+            <div className="grid grid-cols-1 md:grid-cols-5 min-w-0">
               {/* Left Column: Portrait & Quick Stats */}
-              <div className="md:col-span-2 relative bg-stone-950 min-h-[280px]">
+              <div className="md:col-span-2 relative bg-stone-950 min-h-[280px] min-w-0">
                 <img
                   src={selectedModalArtist.photo}
                   alt={selectedModalArtist.name}
@@ -193,7 +193,7 @@ export const ArtistProfiles: React.FC<ArtistProfilesProps> = ({ lang, onSelectAr
               </div>
 
               {/* Right Column: In-depth Content */}
-              <div className="md:col-span-3 p-6 sm:p-8 space-y-5">
+              <div className="md:col-span-3 p-6 sm:p-8 space-y-5 min-w-0">
                 <div>
                   <div className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs text-amber-300 bg-amber-950/40 border border-amber-500/30 uppercase tracking-widest mb-2 font-sans">
                     <Sparkles className="w-3 h-3 text-amber-400" />
@@ -220,7 +220,7 @@ export const ArtistProfiles: React.FC<ArtistProfilesProps> = ({ lang, onSelectAr
                 )}
 
                 {/* Full Biography */}
-                <div className="space-y-3 font-sans text-xs sm:text-sm text-stone-300 leading-relaxed whitespace-pre-line font-light">
+                <div className="space-y-3 font-sans text-xs sm:text-sm text-stone-300 leading-relaxed whitespace-pre-line break-words font-light">
                   {lang === 'vi' ? selectedModalArtist.bioVi : selectedModalArtist.bioEn}
                 </div>
 
@@ -234,9 +234,9 @@ export const ArtistProfiles: React.FC<ArtistProfilesProps> = ({ lang, onSelectAr
                       ? selectedModalArtist.highlightsVi
                       : selectedModalArtist.highlightsEn
                     ).map((highlight, index) => (
-                      <li key={index} className="flex items-start gap-2.5 text-xs text-stone-300">
+                      <li key={index} className="flex items-start gap-2.5 text-xs text-stone-300 min-w-0">
                         <Award className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
-                        <span>{highlight}</span>
+                        <span className="break-words">{highlight}</span>
                       </li>
                     ))}
                   </ul>

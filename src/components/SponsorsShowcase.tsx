@@ -35,7 +35,7 @@ export const SponsorsShowcase: React.FC<SponsorsShowcaseProps> = ({ lang }) => {
             <div className="my-auto py-4 flex flex-col items-center">
               <div className="relative p-2 rounded-2xl bg-black/40 border border-emerald-900/40 group-hover:border-amber-500/40 transition-colors">
                 <img
-                  src="/public/assets/aistudio/AKH_Logo_6574c649.png"
+                  src="/assets/aistudio/AKH_Logo_6574c649.png"
                   alt="An Khai Hung Investment Logo"
                   className="h-28 sm:h-32 w-auto object-contain filter drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
                 />
@@ -114,7 +114,7 @@ export const SponsorsShowcase: React.FC<SponsorsShowcaseProps> = ({ lang }) => {
             <div className="my-auto py-4 flex flex-col items-center">
               <div className="relative p-3 rounded-2xl bg-black/40 border border-stone-800 group-hover:border-amber-500/40 transition-colors">
                 <img
-                  src="/public/assets/aistudio/logogg_bd8491d8.webp"
+                  src="/assets/aistudio/logogg_bd8491d8.webp"
                   alt="GG Corporation Premium Wellbeing Logo"
                   className="h-20 sm:h-24 w-auto object-contain filter drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
                 />

@@ -59,8 +59,8 @@ export const EVENT_DETAILS = {
       roleEn: 'Organizer',
       hotline: '0773 369 369',
       website: 'www.ikivillage.vn',
-      logo: '/public/assets/aistudio/AKH_Logo_6574c649.png',
-      qrCode: '/public/assets/aistudio/qr-ikivillage.png'
+      logo: '/assets/aistudio/AKH_Logo_6574c649.png',
+      qrCode: '/assets/aistudio/qr-ikivillage.png'
     },
     {
       name: 'GG Corporation',
@@ -69,8 +69,8 @@ export const EVENT_DETAILS = {
       roleEn: 'Partner',
       hotline: '0968 268 879',
       website: 'www.ggcvietnam.vn',
-      logo: '/public/assets/aistudio/logogg_bd8491d8.webp',
-      qrCode: '/public/assets/aistudio/qr-ggcvietnam.png'
+      logo: '/assets/aistudio/logogg_bd8491d8.webp',
+      qrCode: '/assets/aistudio/qr-ggcvietnam.png'
     }
   ]
 };
@@ -102,7 +102,7 @@ export const CHAPTERS: Chapter[] = [
       'Among humankind’s countless explorations of the world, there are millions of ways to live, to love, and to celebrate life. Yet there is a form of self-care we frequently overlook: dancing, painting, singing, and reading. Dance, the perfect harmony for the body, is perhaps the most exquisite example.',
       'The dance drama The five – Full Prosperity brings together 5 internationally celebrated dance artists in solo and duo roles, exploring the cycles of life, nature, and the Five Elements returning to inner sanctuary and holistic well-being.'
     ],
-    image: '/public/assets/aistudio/Renjie Ma.jpeg',
+    image: '/assets/aistudio/Renjie Ma.jpeg',
     taglineVi: '',
     taglineEn: '',
     highlights: []
@@ -131,7 +131,7 @@ export const CHAPTERS: Chapter[] = [
       'I have chosen to see this moment expanding endlessly across time; in music, that allows me to improvise in the most sublime way possible. Everything that has passed feels like yesterday to me, whether a week or twenty years ago.',
       'Experience original compositions presented by Sir Niels Lan Doky—with the virtuosity of a Danish Royal Knight united with the romantic warmth of his Vietnamese heart.”'
     ],
-    image: '/public/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68.png',
+    image: '/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68.png',
     taglineVi: '',
     taglineEn: '',
     highlights: []
@@ -184,7 +184,7 @@ export const ARTISTS: Artist[] = [
     category: 'piano',
     honorVi: '“Nghệ sĩ Piano tài năng nhất của thế hệ” — Swing Journal (Nhật Bản)',
     honorEn: '“The best pianist of his generation” — Swing Journal (Japan)',
-    photo: '/public/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68.png',
+    photo: '/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68.png',
     bioVi: `Được Swing Journal (Nhật Bản) tôn vinh là "nghệ sĩ dương cầm xuất sắc nhất thế hệ của ông", được New York Times gọi là "tươi mới và đầy khiêu khích", và được El Diario (Tây Ban Nha) xem là "một trong những nghệ sĩ dương cầm châu Âu quan trọng nhất của 50 năm qua", Sir Niels Lan Doky - người Đan Mạch - đã hiện diện trên những sân khấu danh giá nhất thế giới, từ Royal Albert Hall đến Carnegie Hall, đến Blue Note và xa hơn nữa, làm say lòng khán giả ở khắp mọi nơi.
 
 Sir Doky đã cộng tác cùng những tên tuổi lừng lẫy nhất của jazz, như Pat Metheny, Michael Brecker, David Sanborn, Ray Brown và Darryl Jones, cũng như với các dàn nhạc cổ điển như Dàn nhạc Giao hưởng Montreal và Copenhagen Phil. Những chuyến lưu diễn gần đây và sắp tới của ông trải khắp các thành phố biểu tượng như New York, Paris, London, Berlin, Milan, Vienna, Stockholm, Barcelona và nhiều nơi khác.
@@ -234,7 +234,7 @@ As a respected Bösendorfer Artist, Sir Doky's unparalleled sonic tapestries bri
     category: 'science',
     honorVi: 'Cố vấn Thần kinh học Bệnh viện Đại học Copenhagen (40 năm kinh nghiệm)',
     honorEn: 'Senior Neurologist Consultant, Copenhagen University Hospital (40 yrs exp)',
-    photo: '/public/assets/aistudio/Peter Michael Nielsen.jpg?v=swap1',
+    photo: '/assets/aistudio/Peter Michael Nielsen.jpg?v=swap1',
     bioVi: `TS. Peter Michael Nielsen là một bác sĩ thần kinh người Đan Mạch, bác sĩ cố vấn cao cấp tại Bệnh viện Đại học Copenhagen (cơ sở Holbæk), với 40 năm kinh nghiệm lâm sàng trong các lĩnh vực thần kinh học, phẫu thuật thần kinh và tâm thần học. Kết hợp khoa học y khoa với niềm đam mê âm nhạc suốt đời, ông mang đến một góc nhìn kép hiếm có cho dự án Piano Sanctuary (Chốn An Trú của Tiếng Dương Cầm): Âm nhạc và Khoa học về Não bộ, nơi ông chấp bút những chương khoa học về cách âm nhạc tác động lên não bộ và hệ thần kinh.
 
 Đồng thời là một nhạc sĩ tài năng, ông là đồng tác giả sáng tác của album Piano Sanctuary, nơi ông trình diễn cùng Niels Lan Doky, như ông vẫn làm trong các buổi hòa nhạc trực tiếp của dự án.
@@ -264,7 +264,7 @@ Alongside his scientific research and publications, he is also a medical device 
     category: 'science',
     honorVi: 'Kỹ sư âm thanh huyền thoại với hơn 40 năm đồng hành cùng 47 album của Doky',
     honorEn: 'Legendary Sound Engineer with 40+ years mastering 47 Doky albums',
-    photo: '/public/assets/aistudio/Frank Goldberg.jpg?v=swap1',
+    photo: '/assets/aistudio/Frank Goldberg.jpg?v=swap1',
     bioVi: `Frank Goldberg là một kỹ sư âm thanh người Đan Mạch với hơn 40 năm kinh nghiệm trong thu âm, âm thanh biểu diễn trực tiếp và sản xuất phòng thu. Danh sách cộng tác dày dặn của ông bao gồm các đài phát thanh - truyền hình DR, TV2, TVNorge và TV3; những nghệ sĩ như Patti Smith, Laurie Anderson, Harvey Mason, Mike Stern, Darryl Jones, Ernie Watts và nhóm Modern Standards Supergroup; các nhà văn Haruki Murakami, Paul Auster và Michel Houellebecq; cùng Bảo tàng Nghệ thuật Hiện đại Louisiana.
 
 Với Piano Sanctuary, ông chấp bút những chương về kỹ thuật âm thanh của cuốn sách, giải thích cách âm thanh được thu lại, nắn chỉnh và truyền tải để tạo nên tác động lên người nghe. Ông là kỹ sư âm thanh cho album Piano Sanctuary và tại các buổi hòa nhạc trực tiếp của dự án.
@@ -292,7 +292,7 @@ For Piano Sanctuary, he authored the book's chapters on sound engineering and se
     category: 'dance',
     honorVi: 'Trưởng bộ môn Biên đạo múa - Học viện Nghệ thuật Biểu diễn Hồng Kông (HKAPA)',
     honorEn: 'Head of Choreography, Hong Kong Academy for Performing Arts (HKAPA)',
-    photo: '/public/assets/aistudio/Nguyen Ngoc Anh.jpg',
+    photo: '/assets/aistudio/Nguyen Ngoc Anh.jpg',
     bioVi: `Nguyễn Ngọc Anh là Trưởng bộ môn Biên đạo, Khoa Múa, Học viện Nghệ thuật Biểu diễn Hồng Kông (HKAPA), nơi ông giảng dạy biên đạo, kỹ thuật múa đương đại, ứng tác và tiết mục. Ông có bằng Thạc sĩ Biên đạo Múa tại Đại học Middlesex (Anh).
 
 Ông từng biểu diễn cùng Wayne McGregor Dance, Phoenix Dance Theatre (Anh), Nhà hát Nhạc Vũ Kịch Việt Nam và Les Ballets Persans (Thụy Điển). Ông đoạt giải Ba toàn quốc Múa (2002), giải Bonnie Bird (2005), giải Spotlight của Hội Phê bình Anh (2008) và giải Biên đạo Xuất sắc tại Hong Kong Dance Awards (2015) với tác phẩm SENSE.
@@ -326,7 +326,7 @@ He served as dance assistant for Harry Potter and the Goblet of Fire and the FIN
     category: 'piano',
     honorVi: 'Người tiên phong định hình dòng nhạc điện tử đương đại Việt Nam',
     honorEn: 'Pioneer of contemporary electronic & modular music in Vietnam',
-    photo: '/public/assets/aistudio/Tri Minh.png',
+    photo: '/assets/aistudio/Tri Minh.png',
     bioVi: `Trí Minh là một trong những gương mặt định hình nhạc điện tử Việt Nam - người soạn nhạc trên máy móc như cách người khác chơi nhạc cụ. Đầu thập niên 1990, anh đồng sáng lập ban jazz đầu tiên của Hà Nội, rồi bước vào nhạc điện tử qua các hợp tác với Mouse on Mars, Robert Henke, D-Fuse và Scanner.
 
 Suốt ba mươi năm, công việc của anh dịch dần về trình diễn trực tiếp: những set techno chơi bằng máy, ngẫu hứng trên hệ modular và các hệ thống do chính anh dựng nên. Anh chơi trực tiếp chứ không phát lại - Eurorack, trống máy và sequencer được đưa qua Ableton Live, nắn trong thời gian thực, cho âm nhạc độ nhám và sức sống của một nhạc cụ thật. Lấy âm nhạc truyền thống Việt làm nền nhưng không phô diễn nhạc cụ dân tộc, anh làm việc từ bên trong chất liệu - thang âm, quãng và màu âm.
@@ -356,7 +356,7 @@ Alongside club performance, he composes for concerts, contemporary dance, docume
     category: 'dance',
     honorVi: 'Nguyên Diễn viên chính (Principal Dancer) - Ballet de l’Opéra National du Rhin (Pháp)',
     honorEn: 'Former Principal Dancer, Ballet de l’Opéra National du Rhin (France)',
-    photo: '/public/assets/aistudio/Renjie Ma.jpeg',
+    photo: '/assets/aistudio/Renjie Ma.jpeg',
     bioVi: `Renjie Ma có hơn 15 năm biểu diễn chuyên nghiệp trên các sân khấu châu Âu và châu Á. Anh bắt đầu sự nghiệp tại Đoàn Ba lê Quảng Châu, nơi anh rèn luyện nền tảng kỹ thuật cổ điển vững chắc. Từ năm 2007 đến 2018, anh là Nghệ sĩ múa chính (Principal Dancer) của Ballet de l'Opéra National du Rhin (Pháp). Tại đây, anh đảm nhận vai chính trong các chuyến lưu diễn ở những nhà hát opera lớn của châu Âu và cộng tác với nhiều biên đạo bậc thầy thế giới.
 
 Năm 2012, tạp chí Dance Europe xếp anh thứ 25 trong danh sách "100 vũ công có ảnh hưởng nhất châu Âu". Từ năm 2019, anh là Nghệ sĩ độc diễn cao cấp (Senior Soloist) của Hong Kong Ballet. Anh được biết đến với kỹ thuật hoàn hảo, khả năng biểu cảm sâu sắc và sự linh hoạt giữa múa cổ điển và đương đại. Những vai diễn tiêu biểu của anh gồm Hồ Thiên Nga, Giselle, Don Quixote và Walking Mad.`,
@@ -382,7 +382,7 @@ In 2012, Dance Europe magazine ranked him 25th among the "100 Most Influential D
     category: 'dance',
     honorVi: 'Được Nhà nước phong tặng danh hiệu Nghệ sĩ Ưu tú (2012) · Đào tạo 8 năm tại Kyiv Ballet (Liên Xô)',
     honorEn: 'Merited Artist of Vietnam (2012) · 8-year Vaganova training in Kyiv',
-    photo: '/public/assets/aistudio/Ngo Thuy To Nhu.jpeg',
+    photo: '/assets/aistudio/Ngo Thuy To Nhu.jpeg',
     bioVi: `Ngô Thụy Tố Như - Nghệ sĩ Ưu tú, nghệ sĩ múa ballet và giảng viên với hơn 30 năm kinh nghiệm trong biểu diễn, đào tạo và huấn luyện nghệ sĩ múa chuyên nghiệp. Chị được đào tạo bài bản trong tám năm tại Trường Ballet Quốc gia Kyiv (Ukraine, Liên Xô cũ), nơi xây dựng nền tảng vững chắc về kỹ thuật ballet hàn lâm theo truyền thống Vaganova.
 
 Từ năm 2004, chị giảng dạy ballet cổ điển tại Trường Trung cấp Múa TP.HCM, tập trung đào tạo các khóa sáu năm và chuẩn bị học viên cho nghề nghiệp chuyên nghiệp. Từ năm 2009, chị đồng hành cùng Arabesque Dance Company, đảm nhiệm vai trò huấn luyện kỹ thuật, phát triển năng lực biểu diễn cá nhân và tham gia xây dựng chương trình nghệ thuật.
@@ -416,7 +416,7 @@ In 2012, she was awarded the title of Merited Artist by the President of Vietnam
     category: 'dance',
     honorVi: 'Cử nhân Múa Codarts Rotterdam (Hà Lan) · Vũ công chính Arabesque',
     honorEn: 'Codarts Rotterdam Alumna · Principal Dancer, Arabesque',
-    photo: '/public/assets/aistudio/Chika Tatsumi.jpeg',
+    photo: '/assets/aistudio/Chika Tatsumi.jpeg',
     bioVi: `Sinh ra tại Nhật Bản, Chika Tatsumi bắt đầu học ballet cổ điển từ 3 tuổi và sau đó theo học jazz kịch, tap và nhạc kịch. Năm 2005 cô vào Học viện Múa Thẩm Dương Trung Quốc và hoàn tất đào tạo ballet chuyên nghiệp năm 2009. Cùng năm, cô theo học tại Codarts Rotterdam và nhận bằng cử nhân vào năm 2013.
 
 Sau khi tốt nghiệp, cô làm vũ công tự do tại châu Âu và có ba năm giữ vai trò chính trong Lonneke Van Leth Production (Den Haag). Năm 2015 cô gia nhập Arabesque Dance Company (Việt Nam) và là vũ công chính của đoàn đến cuối năm 2024, tham gia các vở diễn lớn ở Việt Nam, Nhật Bản, Ý và Hàn Quốc.
@@ -446,7 +446,7 @@ In 2023 she performed in Sen&Zen alongside taiko drummer Kensaku Sato at the Sai
     category: 'dance',
     honorVi: 'Cựu nghệ sĩ chính Fukuoka Ballet International (Nhật Bản)',
     honorEn: 'Former Soloist, Fukuoka Ballet International (Japan)',
-    photo: '/public/assets/aistudio/Tran_van_Thinh_6fe5a2ce.png',
+    photo: '/assets/aistudio/Tran_van_Thinh_6fe5a2ce.png',
     bioVi: `Nghệ sĩ múa Trần Văn Thịnh bắt đầu đào tạo chuyên nghiệp tại Học viện Múa Việt Nam vào năm 1999. Sau khi tốt nghiệp với bằng xuất sắc, anh gia nhập Fukuoka Ballet International tại Nhật Bản với tư cách nghệ sĩ toàn thời gian của đoàn. Từ 2006 đến 2011, anh đảm nhận các vai chính trong những vở ballet cổ điển như Le Corsaire, The Sleeping Beauty, Giselle, Chopiniana và Paquita.
 
 Năm 2012, anh trở về Việt Nam và từ đó làm việc với vai trò vũ công kiêm trợ lý biên đạo tại Arabesque Dance Company. Anh đã góp phần vào nhiều vở diễn được đánh giá cao như Những chiếc giày, Mộc, Tích Tắc, The Ballerina, The Mist, Sen Zen, Meelting và Femalesilk. Thịnh đã biểu diễn rộng rãi khắp Việt Nam và tại các liên hoan quốc tế ở Ý, Hoa Kỳ, Hàn Quốc, Nhật Bản và Malaysia.`,
@@ -473,7 +473,7 @@ export const STAGE_VIEWS: StageView[] = [
     titleEn: 'Living Heritage Stage at IKI Gallery',
     descriptionVi: 'Một sân khấu tròn giữa lòng thành phố, nơi ánh sáng vàng kim uốn lượn như vệt trăng tan trên mặt hồ.',
     descriptionEn: 'A circular stage in the heart of the city, where golden light curves like a trail of moonlight dissolving on the water.',
-    image: '/public/assets/aistudio/01_393d3ab4.jpg',
+    image: '/assets/aistudio/01_393d3ab4.jpg',
     focusPointVi: 'Sân khấu tròn · Ánh sáng vàng kim',
     focusPointEn: 'Circular stage · Golden light'
   },
@@ -483,7 +483,7 @@ export const STAGE_VIEWS: StageView[] = [
     titleEn: 'IKI Gallery Auditorium',
     descriptionVi: 'Không gian khán phòng tại IKI Gallery hướng ra khung cảnh thành phố về đêm.',
     descriptionEn: 'The IKI Gallery auditorium space overlooking the city skyline at night.',
-    image: '/public/assets/aistudio/02_8b8aede5.png',
+    image: '/assets/aistudio/02_8b8aede5.png',
     focusPointVi: 'Khán phòng · Tầm nhìn thành phố',
     focusPointEn: 'Auditorium · City view'
   },
@@ -493,7 +493,7 @@ export const STAGE_VIEWS: StageView[] = [
     titleEn: 'Living Heritage Auditorium',
     descriptionVi: 'Bố cục ghế ngồi khán phòng của đêm diễn Living Heritage.',
     descriptionEn: 'The auditorium seating layout for the Living Heritage concert.',
-    image: '/public/assets/aistudio/03_86832d53.png',
+    image: '/assets/aistudio/03_86832d53.png',
     focusPointVi: 'Bố cục ghế ngồi',
     focusPointEn: 'Seating layout'
   },
@@ -503,21 +503,21 @@ export const STAGE_VIEWS: StageView[] = [
     titleEn: 'Living Heritage Stage',
     descriptionVi: 'Góc nhìn khác của sân khấu Living Heritage tại IKI Gallery.',
     descriptionEn: 'Another view of the Living Heritage stage at IKI Gallery.',
-    image: '/public/assets/aistudio/04_65d112ca.png',
+    image: '/assets/aistudio/04_65d112ca.png',
     focusPointVi: 'Sân khấu',
     focusPointEn: 'Stage'
   }
 ];
 
 export const GALLERY_ITEMS: string[] = [
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.24_37d19cb2.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.24__1__272fdc81.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.25_02ff00cd.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.25__1__7e148166.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17_2aa3627c.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17__1__e1e51907.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17__2__05878398.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18_3c9d284e.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18__1__6bd60655.jpeg',
-  '/public/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18__2__2a3c6c50.jpeg'
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.24_37d19cb2.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.24__1__272fdc81.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.25_02ff00cd.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.28.25__1__7e148166.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17_2aa3627c.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17__1__e1e51907.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.17__2__05878398.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18_3c9d284e.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18__1__6bd60655.jpeg',
+  '/assets/aistudio/WhatsApp_Image_2026-10-26_at_07.29.18__2__2a3c6c50.jpeg'
 ];

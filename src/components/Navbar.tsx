@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="flex flex-col">
               <img
-                src="/public/assets/aistudio/logo-livingheritage.webp"
+                src="/assets/aistudio/logo-livingheritage.webp"
                 alt="Living Heritage"
                 className="h-8 w-auto object-contain group-hover:brightness-125 transition-all"
               />

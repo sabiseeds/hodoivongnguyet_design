@@ -390,12 +390,12 @@ export const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose, lang }) =
                 <div className="flex flex-col items-end gap-1 text-[10px] text-stone-400 font-sans">
                   <div className="flex items-center gap-2">
                     <img
-                      src="/public/assets/aistudio/AKH_Logo_6574c649.png"
+                      src="/assets/aistudio/AKH_Logo_6574c649.png"
                       alt="An Khai Hung"
                       className="h-7 w-auto object-contain"
                     />
                     <img
-                      src="/public/assets/aistudio/logogg_bd8491d8.webp"
+                      src="/assets/aistudio/logogg_bd8491d8.webp"
                       alt="GG Corp"
                       className="h-5 w-auto object-contain"
                     />

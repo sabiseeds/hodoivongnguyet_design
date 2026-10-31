@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background Architectural Canvas */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/public/assets/aistudio/01_393d3ab4.jpg"
+          src="/assets/aistudio/01_393d3ab4.jpg"
           alt="Sân khấu Living Heritage Hồ Đợi Vọng Nguyệt"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center filter brightness-[0.4] scale-105 transform duration-1000 ease-out"
@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#d4af37]/10 via-transparent to-[#0b0c10]/90" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-20 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Main Editorial Text Column */}
           <div className="lg:col-span-7 flex flex-col items-start text-left pt-6 lg:pt-0">
@@ -140,7 +140,7 @@ export const Hero: React.FC<HeroProps> = ({
                 {/* Hero Artist Image */}
                 <div className="relative aspect-[3/4] overflow-hidden bg-[#181a24]">
                   <img
-                    src="/public/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68_ebd2b49a.png"
+                    src="/assets/aistudio/Niels-Lan-Doky-06-09-24-SM-68_ebd2b49a.png"
                     alt="Sir Niels Lan Doky"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-top filter grayscale contrast-115 hover:grayscale-0 transition-all duration-700"
