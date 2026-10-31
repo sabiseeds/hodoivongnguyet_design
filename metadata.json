@@ -1,0 +1,6 @@
+{
+  "name": "Hồ Đôi Vọng Nguyệt - Living Heritage",
+  "description": "Đêm nghệ thuật đỉnh cao kết hợp Dương cầm của Sir Niels Lan Doky, Kịch múa The Five - Mùa thịnh vượng và Piano Sanctuary tại IKI Gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
